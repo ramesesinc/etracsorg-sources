@@ -1,0 +1,52 @@
+<style>
+a.memagreedwnld, a.memagreedwnld:hover { color: #005CA7; }
+</style>
+
+<div class="container bgwhite">
+    <div class="row pad">
+        <div class="col-lg-10 col-md-10 col-md-offset-1 wow fadeInDown">
+        	<div class="site-head pad-bot">
+                <h2>Etracs Info</h2>
+                <a class="memagreedwnld" href="/res/downloads/ETRACS_INFO.pdf">Download here</a>
+            </div>
+
+            <div class="site-head pad-bot">
+                <h2>Membership</h2>
+            </div>
+                <p>Most government IT related projects, especially those that are grant-based, usually fail due to the lack of sustainability. Rameses is committed to ensuring that this project is not only continued but to innovate further to provide a more lasting impact. In this regard, the ETRACS Sustainability Membership Program was developed to address project funding.</p>
+                    <div class="row pad">
+	                    <hr>
+	                       <div class="col-md-12">
+	                            <h2>How to Apply</h2>
+								 <ol>
+									<li> <p>1. Download the following documents:</p></li>
+										<ul style="margin-bottom:8px;padding-left:20px;">
+											<!--<li> <a class="memagreedwnld" href="/res/downloads/MembershipAgreement.pdf">Membership Agreement</a></li>-->
+											<li> <a class="memagreedwnld" href="/res/downloads/AnnexA_EULA.pdf">Annex A. End User License Agreement (EULA)</a></li>
+											<li> <a class="memagreedwnld" href="/res/downloads/AnnexB_SUPPORT.pdf">Annex B. Support Agreement</a></li>
+										</ul>
+									<li> <p>2. Once reviewed and approved, the formal contract will be mailed upon advice by the LGU</p></li>
+									<li> <p style="padding-left:20px;">*Annual membership fee is Php 95,000.00. Fee is inclusive of tax and other costs</p></li>
+									<li> <p>3. After the first payment is made, the membership certificate will be mailed to the LGU</p></li>
+									<li> <p>4. Next billing date will be based on the date of registration</p></li>
+								</ol>
+	                       </div>
+		                   <div class="col-md-12">
+		                        <h2>Membership Benefits</h2>
+									<ul style="list-style-type: circle; padding-left:40px;">
+										<li> <p>Free E-TRACS version updates and assistance in upgrading</p></li>
+										<li> <p>Support for bug fixing and troubleshooting problems(email, teamviewer)</p></li>
+										<li> <p>Access to trainings and plugins</p></li>
+										<li> <p>Access to member's website (member's forums)</p></li>
+										<li> <p>Free hosting of special cloud-based systems using our CMS (content management system) technology to enable <br/>Development of web-based transactional systems by LGUs</p></li>
+										<li> <p>Membership to the taxpayer's portal</p></li>
+										<li> <p>Access to special cloud-based services like SMS</p></li>
+									</ul>
+		                   </div>      
+        			</div>
+        			<hr>
+    	</div>
+	</div>
+</div>
+
+

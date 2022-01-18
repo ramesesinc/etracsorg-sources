@@ -1,0 +1,90 @@
+<!-- Start Page Banner -->
+<div class="page-banner" style="padding:40px 0; background: url(/res/slide-02-bg.jpg) center #f9f9f9;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Kiosk 3D</h2>
+        <p>Sample Design</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="breadcrumbs">
+          <li><a href="/index">Home</a></li>
+          <li>Store</li>
+          <li>Kiosk</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Page Banner -->
+<div id="content">
+	<div class="container">
+		<div class="row pad-bottom">
+			<video width="520" height="440" loop autoplay muted>
+			    	<source src="/res/kiosk/vid1.mp4" type="video/mp4">
+			 </video>
+			 <video width="520" height="440" loop autoplay muted>
+			    	<source src="/res/kiosk/vid2.mp4" type="video/mp4">
+			 </video>
+			<!--
+			<div class="col-xs-6 col-md-4">
+			    <img id='rotatingkoisk1' src='/res/kiosk1/01.jpg' width='350' height='259'>
+			    <p>Kiosk Design 1</p>
+			</div>
+			<div class="col-xs-6 col-md-4">
+			    <img id='rotatingkoisk2' src='/res/kiosk2/01.jpg' width='350' height='259'>
+			    <p>Kiosk Design 2</p>
+			  </div>
+			  <div class="col-xs-6 col-md-4">
+			    <img id='rotatingkoisk3' src='/res/kiosk3/01.jpg' width='350' height='259'>
+			    <p>Kiosk Design 3</p>
+			  </div>
+			-->
+
+
+		</div>
+	</div>
+</div>
+
+
+
+<!--
+<script>
+\$(document).ready(function(){
+	\$('#rotatingkoisk1').tsRotate({
+		'zoom':false,
+		'hotspots':false,
+		'reverse':true,
+//		'disablelogo':true,
+//		'autorotate':true,
+//		'autorotatespeed':50,
+		'nophp':true,
+		'nophpimglist':'/res/kiosk1/01.jpg,/res/kiosk1/02.jpg,/res/kiosk1/03.jpg,/res/kiosk1/04.jpg,/res/kiosk1/05.jpg,/res/kiosk1/06.jpg,/res/kiosk1/07.jpg,/res/kiosk1/08.jpg'
+	});
+});
+\$(document).ready(function(){
+	\$('#rotatingkoisk2').tsRotate({
+		'zoom':false,
+		'hotspots':false,
+		'reverse':true,
+//		'disablelogo':true,
+//		'autorotate':true,
+//		'autorotatespeed':50,
+		'nophp':true,
+		'nophpimglist':'/res/kiosk2/01.jpg,/res/kiosk2/02.jpg,/res/kiosk2/03.jpg,/res/kiosk2/04.jpg,/res/kiosk2/05.jpg,/res/kiosk2/06.jpg,/res/kiosk2/07.jpg,/res/kiosk2/08.jpg'
+	});
+});
+\$(document).ready(function(){
+	\$('#rotatingkoisk3').tsRotate({
+		'zoom':false,
+		'hotspots':false,
+		'reverse':true,
+//		'disablelogo':true,
+//		'autorotate':true,
+//		'autorotatespeed':50,
+		'nophp':true,
+		'nophpimglist':'/res/kiosk3/01.jpg,/res/kiosk3/02.jpg,/res/kiosk3/03.jpg,/res/kiosk3/04.jpg,/res/kiosk3/05.jpg,/res/kiosk3/06.jpg,/res/kiosk3/07.jpg,/res/kiosk3/08.jpg'
+	});
+});
+</script>
+-->

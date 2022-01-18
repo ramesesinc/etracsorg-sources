@@ -1,0 +1,103 @@
+    <!-- Start Page Banner -->
+    <div class="page-banner" style="padding:40px 0; background: url(/res/slide-02-bg.jpg)center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Business Permit and Licensing System</h2>
+            <p>BPLS</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="/index">Home</a></li>
+              <li>Systems</li>
+              <li>Business Permit and Licensing System</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page Banner -->
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+          
+          
+          <div class="row">
+            
+            <div class="col-md-6">
+              
+              <!-- Classic Heading -->
+              <h4 class="classic-title"><span>Introduction</span></h4>
+              
+              <!-- Some Text -->
+              <p>One of the truly unique features of E-TRACS is the use of rule engines in the BPLS Module. Establishment of business taxes, permit fees and charges when applying for business is very difficult to automate considering the different practices of LGUs in imposing taxes and fees. What is applicable to one LGU may not apply to the other. Most systems resort to reprogramming and customization for those areas not handled in their program design. This is not cost-efficient and most definitely very hard to maintain. What makes it difficult is that tax imposition is not straight forward that one can simply lookup tax tables or use formulas. It is highly unstructured and dependent on information provided by the business applicant. Some proposals were made to standardize fees so that LGUs will adapt to the system, not the other way around.</p>
+              <p>However, this approach would be next to impossible considering that LGUs are autonomous and have their jurisdiction to maximize their revenues or lower taxes as they see fit. It is for this reason why TRACS had its limitation. E-TRACS has made a huge improvement in this area by employing rule engines. A rule engine is a special software that executes rules in a runtime environment. Rules are authored by the business expert, and during execution, data or facts are evaluated and the appropriate rules are fired to produce the outcome.</p>
+              
+            </div>
+            
+            <div class="col-md-6">
+              <div class="diagram">   
+                 <img src="/res/module/business-diagram.png" alt="">
+             </div> 
+            </div>
+            
+          </div>
+          
+          <!-- Divider -->
+          <div class="hr1" style="margin-bottom:50px;"></div>
+          
+          <div class="row">
+
+          <div class="col-md-6">
+              <div class="diagram"> 
+              <h5 class="title"><span>The rule author translates ordinances into rules through a rule authoring interface:<pan></h5>  
+                 <img src="/res/module/business-screenshot.png" alt="">
+             </div>
+             <p>With the use of the rule engine, E-TRACS was able to accurately capture ordinances in the LGUs.
+              In fact, LGUs also realized that they could improve on their way of computation because the system helped them realize that they were under-collecting on some businesses due to improperly categorizing lines of business or segregating essential from non-essential sales, which they missed out before because of the tediousness of such computations.</p> 
+          </div>
+            
+            <div class="col-md-6">
+              
+    
+              
+                <h3>The following are the salient features included, but not limited to, in BPLS Module:</h3>
+                <div class="hr1" style="margin-bottom:10px;"></div>
+                    <ul>
+                        <li>Support for the following transactions: New, Renew, Retire</li>
+                        <li>Supports special transactions like adding/removing lines of business, reporting quarterly gross for new business, reassessment, and processing of late renewals</li>
+                        <li>Highly flexible rule engine that can be customized for any kind of computation of tax, fees,
+                        penalties, discounts and requirements based on the LGUs ordinances </li>
+                        <li>Smart application that asks only relevant information for a particular kind of business
+                        </li>
+                        <li>100% fully automated assessments with 0 manual intervention</li>
+                        <li>Traces change history of business information: trade name, address, organization type, etc.</li>
+                        <li>Supports multiple lines of business and assess taxes and fees by line of business or by establishment </li>
+                        <li>Support for data capture of manual assessments for initial data build up</li>
+                        <li>Support for advance billing</li>
+                        <li>Seamless integration with treasury module for payments</li>
+                        <li>Accepts quarterly and partial payments</li>
+                        <li>Views business ledgers and payment history</li>
+                        <li>Automatic segregation of applications that are due for renewal</li>
+                        <li>Controls the issuance of permits only to applications that have paid the minimum amount required</li>
+                        <li>Support for SMS inquiry</li>
+                        <li>Support of PIN for integration with GIS</li>
+                        <li>Mapping of revenue accounts to SRE (Statement of Revenue and Expense) to generate the required BLGF reports</li>
+                        <li>Reports - Business Listing, Business Owner Master List, Application Listing, Business with permits
+                            listing, Business Comparative Assessment Listing, Business Comparative Listing, etc.</li>
+                        <li>Various reports that can be outputted to different file formats like PDF, Excel, CSV etc.</li>
+                    </ul>
+              
+            </div>
+            
+            
+            
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+    

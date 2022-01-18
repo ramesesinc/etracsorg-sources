@@ -1,0 +1,19 @@
+<h2>This is developer</h2></div>
+
+<%
+
+def list=[];
+list.add([firstname:'Jason',lastname:'Canonoy',age:23]);
+list.add([firstname:'Bryan',lastname:'Pascual',age:53]);
+list.add([firstname:'John',lastname:'Diaz',age:26]);
+list.add([firstname:'Ben',lastname:'Gonzales',age:13]);
+list.add([firstname:'Sam',lastname:'Uy',age:43]);
+list.add([firstname:'Ralp',lastname:'Go',age:63]);
+
+for(a in list){
+	if(!PARAMS.age || a.age > Integer.parseInt(PARAMS.age)){
+	   println ("<h4>"+a.firstname +" "+ a.lastname +" "+a.age+"</h4>")
+	} 
+}
+
+%>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> ${MODULE.title? MODULE.title: PROJECT.title} - ${PAGE.title} </title>   
+    <meta name="title" content="index">
+    <meta name="author" content="Rameses Systems Inc.">
+    <meta name="keywords" content="${PROJECT.keywords} ${MODULE.keywords? MODULE.keywords:''}"/>
+    <meta name="description" content="${PROJECT.description}"/> 
+    @stdlib()
+    @css("bootstrap.min")
+    @css("main")
+    @page-imports()
+ 	
+</head>
+
+<body>
+
+<div id="wrapper">
+<div class="navbar-fixed-top">
+    <div class="brand">	
+        <div class="col-md-9">
+			<a><div class="logo"></div></a>
+		</div>
+		<div>
+			<p class="login"><a class="btn btn-primary" href="/login">Log-in</a></p>
+		</div>
+    </div>	
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+            <!-- toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><div class="logo"></div></a>
+				<!--<p class="logintag"><a class="btn btn-primary" href="/login">Log-in</a></p> -->
+            </div>
+            <div>
+                @navbar(style:"default", name:'topmenu')
+            </div>
+    </nav>	
+</div>
+
+   <div id="content">
+   ${_content}
+	
+ </div>
+	<hr class="soft">
+<div class="container">
+    <div class="row">
+        <div class="span3">
+            <h5>ACCOUNT</h6>
+            <a href="login.html">YOUR ACCOUNT</a>
+            <a href="login.html">PERSONAL INFORMATION</a> 
+            <a href="login.html">ADDRESSES</a> 
+            <a href="login.html">DISCOUNT</a>  
+            <a href="login.html">ORDER HISTORY</a>
+         </div>
+        <div class="span3">
+            <h5>INFORMATION</h5>
+            <a href="contact.html">CONTACT</a>  
+            <a href="register.html">REGISTRATION</a>  
+            <a href="legal_notice.html">LEGAL NOTICE</a>  
+            <a href="tac.html">TERMS AND CONDITIONS</a> 
+            <a href="faq.html">FAQ</a>
+         </div>
+        <div class="span3">
+            <h5>OUR OFFERS</h5>
+            <a href="#">NEW PRODUCTS</a> 
+            <a href="#">TOP SELLERS</a>  
+            <a href="special_offer.html">SPECIAL OFFERS</a>  
+            <a href="#">MANUFACTURERS</a> 
+            <a href="#">SUPPLIERS</a> 
+         </div>
+        <div id="socialMedia" class="span3 pull-right">
+            <h5>SOCIAL MEDIA </h5>
+            <a href="#"><img width="60" src="assets/img/facebook.png" title="facebook"/></a>
+            <a href="#"><img width="60" src="assets/img/twitter.png" title="twitter"/></a>
+            <a href="#"><img width="60" src="assets/img/rss.png" title="rss"/></a>
+            <a href="#"><img width="60" src="assets/img/youtube.png" title="youtube"/></a>
+         </div> 
+     </div>
+     <hr class="soft">
+    <div class="col-md-3"  style="float:right;padding: 20px 0;">    
+                        <span id="top-link-block" class="show">
+                            <a href="#top" class="well well-sm" onclick="\$('html,body').animate({scrollTop:0},'slow');return false;">
+                                <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+                            </a>
+                        </span>
+                </div>
+</div>
+  
+</div>
+	
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

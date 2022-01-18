@@ -1,0 +1,33 @@
+
+
+<!-- Start Content -->
+		<div id="content">
+			<div class="container">
+				<div class="project-page row">
+					
+					<!-- Start Single Project Slider -->
+					<div class="project-media col-md-12">
+						
+						<iframe src="https://www.google.com/maps/d/embed?mid=zRMIv9O8BO4E.k8U69cJk-XL8" width="100%" height="780"></iframe>
+
+					</div>
+					<!-- End Single Project Slider -->
+					
+					<!-- Start Project Content -->
+					<div class="project-content col-md-4">
+						<h4><span>ETRACS Deployments and Members</span></h4>
+						<p>ETRACS is developed using java programming language and carefully chosen open source components. It can run on any operating system and can be used with any database such as MySQL, PostgreSQL(open-source) or MS SQL Server, Oracle (commercial). <STRONG>Over 90+ LGUs are usng ETRACS Nationwide.</STRONG></p>	
+					</div>
+					<!-- End Project Content -->
+				</div>
+
+				<div class="recent-projects">
+					<!-- ${_listing} -->
+				</div>
+				
+			</div>
+		</div>
+<!-- End Content -->
+
+		
+            

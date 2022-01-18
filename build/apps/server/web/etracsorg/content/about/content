@@ -1,0 +1,70 @@
+<div class="container bgwhite">
+<div class="container">
+            <div class="row pad">
+                <div class="col-lg-10 col-md-10 col-md-offset-1 wow fadeInDown">
+                    <div class="site-head pad-bot">
+                        <h2>About</h2>
+                    </div>
+                    <p>E-TRACS is a free software available to local government units to computerize tax and revenue assessments and collection. Designed,developed and maintained by Rameses Systems Inc, the project aims to seamlessly and fully integrate real property system, business licensing and all other revenue activities to treasury operations. Our mission is to provide an effective management tool to enforce discipline and best practice in LGU operations; one that can be easily availed especially for LGUs that cannot afford such systems. E-TRACS can be availed through grants, LGU to LGU assistance, or directly applying for membership in the community.</p>
+					<div class="row pad">
+                      <div class="col-md-12">
+                            <h2>Why should an LGU choose E-TRACS?</H2>
+							 <ul>
+								<li> <p style="font-size:15px;">It fully automates the complete revenue cycle - from real property assessment, business permit and licensing and treasury operations (accountable forms inventory, collection, remittance, liquidation and deposit)</p></li>
+								<li> <p style="font-size:15px;">The software is free and total cost of running the system is low.</li>
+								<li> <p style="font-size:15px;">LGUs get the source code and documentation.</li>
+								<li> <p style="font-size:15px;">Trainings are available to help an LGU customize the system based on their specific needs.</li>
+								<li> <p style="font-size:15px;">	LGUs get to choose whether to deploy E-TRACS in Windows or open source systems like Linux and can choose whether to use MSSQL Server(commercial database) or MySQL(open source).</li>
+								<li> <p style="font-size:15px;">	It has a community of LGU users who will be willing to share knowledge and answer questions.</li>
+								<li> <p style="font-size:15px;">E-TRACS is continuously being developed for improvements and new innovations.</li>
+								<li> <p style="font-size:15px;">E-TRACS is successfully being used by several LGUs today and the number is growing.</p>
+							</ul>
+                        </div>  
+                    </div> 
+                    <hr>
+                    <div class="row pad">
+                        <div class="col-md-12">
+                            <h2>Core Modules</H2>
+							 
+								<p style="font-size:15px;">The project consists of three core modules that is important for the LGU revenue operations namely:</p>
+								<ul>
+								<li> <p style="font-size:15px;">Collection (Treasury)</li>
+								<li> <p style="font-size:15px;">Business Permit and Licensing</li>
+								<li> <p style="font-size:15px;">Real Property Tax Assessment</li>
+							</ul>
+							<p style="font-size:15px;">Other revenue process automation could be integrated through a facility called <strong>Plugins</strong></p>	
+                        </div>   
+                    </div>
+                    <hr>
+                    <div class="col-md-12">
+                            <h2>System Requirements</H2>
+							<p style="font-size:15px;">To use the system the LGU needs the following hardware and software:</p>
+							<p style="font-size:15px;"><strong>Hardware:</strong></p>
+							<p style="font-size:15px;">1 Server-grade computer <strong>( required )</strong></p>
+							<p style="font-size:15px;">1 Server-grade computer for backup <strong>(optional but highly recommended)</strong></p>
+							<p style="font-size:15px;">6 or more desktop computers <strong>( for the different offices )</strong></p>
+							<p style="font-size:15px;">Local area network <strong>(required)</strong></p>
+							<p style="font-size:15px;">Dot matrix Printers - for online collectors for printing receipts</p>
+							 <ul>
+								<li> <p style="font-size:15px;">Epson LQ300+</p></li>
+								<li> <p style="font-size:15px;">Epson LQ590</li>
+							</ul>
+							<p style="font-size:15px;"><strong>Software:</strong></p>
+							<p style="font-size:15px;">Server operating system : Windows 2003 or higher, Linux ( Linux recommended) Desktop operating system : Windows or Linux (Windows recommended) Database: MySQL version 5 or higher, PostgreSQL, SQL Server 2005 or higher</p>
+                    </div>
+                    <hr/>
+                    <div class="col-md-12">
+                            <h2>How is E-TRACS acquired</H2>
+							<p style="font-size:15px;"><strong>Through grants</strong></p>
+							<p style="font-size:15px;text-indent: 40px;">The most common and preferred way is through grants. E-TRACS was first developed and initiated through an AusAID grant. Through the funding of grants via the development partners, E-TRACS is usually included as a component of the grant. However for LGUs not fortunate enough to apply for grants, there are other ways in which the project can be acquired.</p>
+							<p style="font-size:15px;"><strong>Through LGUs</strong></p>
+							<p style="font-size:15px;text-indent: 40px;">E-TRACS can be acquired through sharing. Depending on the LGU, an LGU may ask another already using E-TRACS to share a copy and assist in their implementation. Usually a memorandum of agreement is signed between LGUs.</p>
+							<p style="font-size:15px;"><strong>Through Membership</strong></p>
+							<p style="font-size:15px;text-indent: 40px;">If the LGU has IT capable staff to support the project, they can do it themselves. Apply first for membership by sending a letter of intent signed by the mayor, and email a scanned copy to rameses.systems@gmail.com.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+

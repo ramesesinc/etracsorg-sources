@@ -1,0 +1,15 @@
+
+import com.rameses.annotations.*;
+import com.rameses.server.common.*;
+
+class DeploymentService 
+{
+	@PersistenceContext("main")
+	def em;	
+
+	@ProxyMethod
+	public def getList(def param) 
+	{
+		return em.sqlContext.createNamedQuery("deployment:list").setParameters(param).resultList;	
+	}
+}

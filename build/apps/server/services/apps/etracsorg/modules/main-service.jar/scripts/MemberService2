@@ -1,0 +1,39 @@
+import com.rameses.annotations.*;
+import com.rameses.common.*;
+import java.rmi.server.*;
+
+class MemberService2 
+{
+	@PersistenceContext('main')
+	def em;	
+
+	@ProxyMethod
+	public def getList() {
+		return em.sqlContext.createQuery(''' 
+
+			SELECT 
+				lgucode, lguname, lgudesc 
+				CASE 
+					WHEN logo IS NULL THEN 0 
+					ELSE 1 
+				END AS haslogo 
+			FROM members 
+			HAVING haslogo=1 
+			ORDER BY lguname 
+
+		''').resultList;		
+	}	 
+
+	@ProxyMethod
+	public def getLogo(params) 
+	{
+		def qry = em.sqlContext.createQuery('SELECT logo FROM members WHERE lgucode=$P{lgucode}');
+		def data = qry.setParameters(params).singleResult;
+
+		def mf = new MediaFile();
+		mf.contentType = "image/gif";
+		mf.content = data.logo;
+		return mf;
+	}	
+
+}

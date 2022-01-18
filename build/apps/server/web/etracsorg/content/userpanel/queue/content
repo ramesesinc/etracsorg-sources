@@ -1,0 +1,83 @@
+<%
+     def list = SERVICE.lookup('QueueNotificationService', 'queue').getCacheList();
+%>
+
+<script src="/js/js/queue.js"></script>
+
+
+<div class="breadcrumbs" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="icon-home home-icon"></i>
+                <a href="userpanel">User Panel</a>
+					<span class="divider">
+                        <i class="icon-angle-right arrow-icon"></i>
+                    </span>
+        </li>
+        <li>Queue</li>
+    </ul>
+</div>
+<div class="page-content">
+    <div class="page-header position-relative">
+       <h1>
+            Queue
+                <small>
+                	<i class="icon-double-angle-right"></i>
+                  Real Property tax
+               	</small>
+        </h1>
+    </div>
+
+        <div class="center">
+            <%
+            
+                    list.each {group->
+                                def groupid = group.objid;
+                                def name = group.name;
+                                def sections = group.sections;
+                                def categories = group.categories;
+
+                                sections.each{sec->
+                                    def sobjid = sec.objid;
+                                    def sname = sec.name;
+                                    def scode = sec.code;
+            %>
+                                           <div class="col-md-3 col-sm-3">
+                                                <div class="thumbnail" id="${sname}">
+                                                    <div class="caption">
+                                                        <h3>${sname}</h3>
+                                                     </div>
+                                                        <table class="table" id="${name}${sname}">
+                                                            <tr>
+                                                                <th class="bg-red">Priority</th>
+                                                                <th class="bg-blue">Counter</th>
+                                                            </tr>         
+            <%
+                                        categories.each{catego->
+                                            def cobjid = catego.objid;
+                                            def cname  = catego.name;
+                                            def ccode  = catego.code;
+          
+                                                            def codelist = [];
+                                                            codelist.each{code->
+                                                                def codename = code.name;
+                                                                def countername = code.counter.name;
+
+            %>
+                                                                    <tr>
+                                                                    <td id="${codename}">
+                                                                        <span class="priority" data-counter="${countername}">${codename}</span>
+                                                                        <span class="small">${cname}</span>
+                                                                    </td>
+                                                                    <td><span class="counter">${countername}</span></td>
+            <%
+                                                                           
+                            }
+                        }
+                        %></tr></table></div></div><%
+                    }
+                }
+            %>                                                      
+        </div>
+</div>
+

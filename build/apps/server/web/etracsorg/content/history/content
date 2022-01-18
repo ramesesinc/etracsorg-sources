@@ -1,0 +1,37 @@
+<section class="container bgwhite">
+<div class="container">
+            <div class="row pad">
+                <div class="col-lg-10 col-md-10 col-md-offset-1 wow fadeInDown">
+                    <div class="site-head pad-bot">
+                        <h2>History</h2>
+                    </div>
+                    <p>E-TRACS is a free software available to local government units to computerize tax and revenue assessments and collection. Designed,developed and maintained by Rameses Systems Inc, the project aims to seamlessly and fully integrate real property system, business licensing and all other revenue activities to treasury operations. Our mission is to provide an effective management tool to enforce discipline and best practice in LGU operations; one that can be easily availed especially for LGUs that cannot afford such systems. E-TRACS can be availed through grants, LGU to LGU assistance, or directly applying for membership in the community.</p>
+                    <div class="row pad">
+                       <div class="col-md-12">
+                      <p style="text-indent: 40px;">In 2000, Rameses Systems Inc (Rameses), a software company based in Cebu City, Philippines was given the opportunity to fix a system called TRACS (Tax Revenue Assessment and Collection System) for local government units as part of an AusAID grant. Originally, the project was awarded to another software vendor who failed to deliver the system within a 5-year timeframe. As a last ditch effort, Rameses was given only six months to deliver the system. Because the original system was totally unusable, it had to be completely rewritten from scratch. With the help of consultants from BLGF (Bureau of Local Government Finance) to explain the intricacies in local government processes, Rameses rose up to the challenge and was able to complete a working system on time. TRACS was developed on a Microsoft platform (Visual Basic) using MS SQL Server as its database. There were 5 LGU recipients of the project namely Iligan City, Puerto Princesa City, Tagbilaran City, General Santos City and Bacolod City. TRACS is still being used today by some LGUs who have benefited greatly by the system.</p>
+                   
+                </div>
+                <div class="col-md-12">
+                        <p style="text-indent: 40px;">At this time, most LGUs still did not computerize or if they were using one, it wasn't designed properly. Most were designed mainly for capturing data and did not apply best practice controls which was easily manipulated by users resulting in inaccurate information. Commercial systems in the market were very expensive and LGUs would need to spend millions for it and still it wasn't guaranteed to run effectively. There were available free systems but were unsustained and it was very difficult to get support. Seeing the benefits of TRACS automation, Rameses realized that the system could be the vehicle for true modernization of the Philippines. In order for the vision to materialize, the system should be easily accessible to any LGUs who should need it. The total cost of running the system must be low enough especially for the poorer LGUs who cannot afford it. Although TRACS was successful, it was designed on commercial platform and would incur other licensing costs to the LGU. TRACS was also quite limited in a sense that it could not quite handle different business practices of the LGUs. Without wasting time, Rameses redesigned a new system based on opensource software, and researched on applying rule engines to enable the system to be smart enough to handle new requirements without the aid of a programmer so it could be easily adaptable.</p>
+                   
+                </div>
+                <div class="col-md-12">
+                        <p style="text-indent: 40px;">Another opportunity came in 2007, when Rameses was hired to deliver the same system for another AusAID grant however with a different challenge - it was for a province-municipality setup. To differentiate TRACS from the new system, the new system was called E-TRACS or Enhanced Tax Revenue Assessment and Collection System. The new system was aimed to connect transactions from the municipality to the province. E-TRACS was piloted to two provinces, Bohol and Iloilo and two selected municipalities for each. The initial system garnered mixed success. Although E-TRACS was deployed to two municipalities in Iloilo, (Oton and Leganes), Iloilo province did not participate in the project and Iloilo City (the recipient) had acquired another system and did not need it. However, it was different for Bohol. Bohol province had a vision of connecting all their municipalities and seriously wanted to be advanced. Through another AusAID grant, and because of the partial success of the previous project, E-TRACS would be eventually deployed to all its municipalities.</p>
+                   
+                </div>
+                <div class="col-md-12">
+                        <p style="text-indent: 40px;">E-TRACS would be deployed in other projects through different grants, and some copies have been distributed through LGU-to-LGU assistance. Several IT trainings have been conducted to enable IT staff from the LGUs to manage or customize the system. In 2012, the E-TRACS version 2.0 was released and has been greatly improved to make the system easier and more extensive. Slowly, the vision of a better Philippines has been realized. To check on LGUs using the system <a href="deployments" style="color:#23527c;  text-decoration:underline;">click here.</a></p>
+                   
+                </div> 
+                    </div> 
+                  
+                </div>
+            </div>
+        </div>
+           
+        
+    </section>
+
+
+  
+               

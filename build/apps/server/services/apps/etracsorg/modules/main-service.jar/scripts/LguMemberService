@@ -1,0 +1,59 @@
+import com.rameses.annotations.*;
+import com.rameses.common.*;
+import java.rmi.server.*;
+
+class LguMemberService 
+{
+	@ActiveDB('lgu')
+	def em;
+
+	@ProxyMethod
+	public def getList() { 
+		return em.getMembers(); 
+	} 
+
+	@ProxyMethod
+	public def getActiveMembers() { 
+		return em.getActiveMembers(); 
+	} 
+
+	@ProxyMethod
+	public def findMember( params ) {
+		def data = em.findMember( params ); 
+		if (data) data.remove('logo'); 
+
+		return data; 
+	}
+
+	@ProxyMethod
+	public def findMemberByCode( params ) {
+		def data = em.findMemberByCode( params ); 
+		if (data) data.remove('logo'); 
+
+		return data; 
+	}	
+
+	@ProxyMethod
+	public def findMemberByName( params ) {
+		def data = em.findMemberByName( params ); 
+		if (data) data.remove('logo'); 
+
+		return data; 
+	}	
+	
+	@ProxyMethod
+	public def getLogo( params ) {
+		def data = em.findMemberByCode([lgucode: params.lgucode]); 
+		def logo = data?.logo? data.logo: new byte[0];
+		def mf = new MediaFile();
+		mf.contentType = "image/gif";
+		mf.content = logo;
+		return mf;
+	} 
+
+	@ProxyMethod
+	public def getLogoRaw( params ) {
+		def data = em.findMemberByCode([lgucode: params.lgucode]); 
+		return data?.logo; 
+	} 
+}

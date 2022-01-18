@@ -1,0 +1,6 @@
+{
+	title: 'dashboard',
+	fragment:true,
+	icon : 'dashboard',
+	group : 'User Panel'
+}

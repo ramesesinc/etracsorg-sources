@@ -1,0 +1,115 @@
+<!-- Start Pricing Table Section -->
+            <div class="pricing-section" style="padding-top:60px; padding-bottom:60px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Start Big Heading -->
+                            <div class="big-title text-center">
+                                <h1>We Have Great Pricing Plans For <strong>You!</strong></h1>
+                            </div>
+                            <!-- End Big Heading -->
+					
+                            <!-- Text -->
+                            <p class="text-center" style="margin-bottom:20px;"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="row pricing-tables">
+                        
+                        <div class="col-md-3 col-sm-3">
+                            <div class="pricing-table">
+							<div class="plan-name">
+								<h3>Basic</h3>
+							</div>
+							<div class="plan-price">
+								<div class="interval">PHP</div>
+								<div class="price-value">1,500<span>.00</span></div>
+							</div>
+							<div class="plan-list">
+								<ul>
+									<li><strong>1,000</strong> Text Messages</li>
+									<li><strong>All network</strong> Text</li>
+									<li><strong>No</strong> Expiry</li>
+									<li><strong></strong></li>
+								</ul>
+							</div>
+							<div class="plan-signup">
+								<a href="#" class="btn-system btn-small">Buy Now</a>
+							</div>
+						</div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-3">
+                            <div class="pricing-table">
+							<div class="plan-name">
+								<h3>Advanced</h3>
+							</div>
+							<div class="plan-price">
+								<div class="interval">PHP</div>
+								<div class="price-value">5,000<span>.00</span></div>
+							</div>
+							<div class="plan-list">
+								<ul>
+									<li><strong>4,000</strong> Text Messages</li>
+									<li><strong>All network</strong> Text</li>
+									<li><strong>No</strong> Expiry</li>
+									<li><strong></strong></li>
+								</ul>
+							</div>
+							<div class="plan-signup">
+								<a href="#" class="btn-system btn-small">Buy Now</a>
+							</div>
+						</div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-3">
+                            <div class="pricing-table highlight-plan">
+							<div class="plan-name">
+								<h3>Professional</h3>
+							</div>
+							<div class="plan-price">
+								<div class="interval">PHP</div>
+								<div class="price-value">10,000<span>.00</span></div>
+							</div>
+							<div class="plan-list">
+								<ul>
+									<li><strong>10,000</strong> Text Messages</li>
+									<li><strong>All network</strong> Text</li>
+									<li><strong>No</strong> Expiry</li>
+									<li><strong></strong></li>
+								</ul>
+							</div>
+							<div class="plan-signup">
+								<a href="#" class="btn-system btn-small border-btn">Buy Now</a>
+							</div>
+						</div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-3">
+                            <div class="pricing-table">
+							<div class="plan-name">
+								<h3>Extreme</h3>
+							</div>
+							<div class="plan-price">
+								<div class="interval">PHP</div>
+								<div class="price-value">20,000<span>.00</span></div>
+							</div>
+							<div class="plan-list">
+								<ul>
+									<li><strong>21,000</strong> Text Messages</li>
+									<li><strong>All network</strong> Text</li>
+									<li><strong>No</strong> Expiry</li>
+									<li><strong></strong></li>
+								</ul>
+							</div>
+							<div class="plan-signup">
+								<a href="#" class="btn-system btn-small">Buy Now</a>
+							</div>
+						</div>
+                        </div>
+						
+						
+					</div>
+                    </div>
+                </div>
+            <!-- End Pricing Table Section --> 

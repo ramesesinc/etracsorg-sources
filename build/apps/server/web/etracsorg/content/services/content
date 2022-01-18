@@ -1,0 +1,75 @@
+<style>
+a.memagreedwnld, a.memagreedwnld:hover { color: #005CA7; }
+</style>
+
+<div class="container bgwhite">
+    <div class="row pad">
+        <div class="col-lg-10 col-md-10 col-md-offset-1 wow fadeInDown">
+            <div class="site-head pad-bot">
+                <h2>Professional Services</h2>
+            </div>
+                <p>Because of the intricacies in deploying a complex system like ETRACS, an LGU may opt to acquire the professional services of Rameses Systems Inc., the sole developer of ETRACS,  to help them move faster and lessen the risks of failure in the deployment,  based on the prescribed needs. Rameses Systems Inc. has built an extensive experience and knowledge in LGU operations and can specifically tailor the system to meet specific demands of the LGU implementer. The following serves as guide for LGUs in their budget preparation, in relation to the deployment of ETRACS:</p>
+                <hr style="border-top:none">
+                <p><strong>Services that may be availed of by the LGU include, but not limited to the following:</strong></p>
+				 <ol class="square">
+					<li> <p>Customization of the system to meet the specific reporting needs of the treasurer and assessor</p></li>
+					<li> <p>Assistance in general revisions</p></li>
+					<li> <p>Proper configuration of rules</p></li>
+					<li> <p>Training of LGU IT staff  so they will be able to develop custom reports and extend ETRACS</p></li>
+				</ol>
+				<hr>
+            <div class="site-head pad-bot">
+                <h3>Consultancy</h3>
+            </div>
+                <p>The consultant may be hired on site to advice and configure proper setup of the data in coordination with their specific ordinances, business processes and desired reporting output.</p> 
+                <hr style="border-top:none">
+                <!--
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td>Consultant Fee</td>
+                      <td>Php 35,000/day(inclusive of taxes)</td>
+                    </tr>
+                  </tbody>
+                </table>-->
+                 <p style="font-style:italic">Meals, travel, and accommodation of the consultants will be shouldered by the LGU implementer</p>             
+                <hr>  
+                <h3>Training Fees </h3>
+                    <p>There are different trainings available to meet the skill levels of participants like end users, administrators and IT developers. For LGU IT developers, several levels are also provided like beginners, intermediate and advanced to help them customize the system on their own based on their needs.   </p>    
+        		<hr style="border-top:none">
+        		  <p><strong>For on site training:    </strong></p>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td>Main Trainer</td>
+                      <td>Php 30,000 /day (inclusive of taxes)</td>
+                    </tr>
+                    <tr>
+                      <td>Assistant</td>
+                      <td>Php 5,000 /day (inclusive of taxes)</td>
+                    </tr>
+                  </tbody>
+                </table> 
+                <p style="font-style:italic">Meals, travel, and accommodation of the trainers will be shouldered by the LGU implementer</p>
+				<hr style="border-top:none">
+				    <p><strong>    For trainings that will be held in the office of Rameses Systems (the rates given below may change depending on the requirement of the training): </strong></p>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                    <td>for ETRACS Sustainability LGU-members</td>
+                      <td>Php1,500 per participant per day</td>
+                    </tr>
+                  </tbody>
+                </table> 
+                <hr>
+                <h3>Grants </h3>
+                    <p>Availment of the professional services of Rameses Systems through grants will be subject to negotiation. A separate proposal will be provided based on the requirements.</p>  
+				<hr>
+            </div>
+
+    	</div>
+	</div>
+</div>
+
+
+

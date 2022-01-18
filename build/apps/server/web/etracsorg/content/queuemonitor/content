@@ -1,0 +1,40 @@
+
+<div id="wrapper">	
+	<div id="header">	
+		<div class="container-fluid">
+			<div class="row">
+			    <ul class="headertv">
+			        <li><img src="/res/queue/images/lgu-logo.png" class="lgu-logo"></li>
+			        <li><img src="/res/queue/images/etracs.png" class="queue-logo"></li>
+			        <li class="lead">QUEUING SYSTEM</li>
+			        <li class="date">
+			          <img src="/res/queue/images/rameses.png" class="rameses-logo">
+			          <p>Today is Sep. 30, 2016</p>
+			        </li>
+			     </ul>
+			</div>
+		</div>
+	</div><!-- #header -->
+	<div id="content">	
+		<div id="wrap">
+		  	<div class="video">
+			    <video id="video" autoplay loop muted>
+			      <source src="/res/video/wind.mp4" type="video/mp4">
+			      <source src="../res/video/lightstream.mp4" type="video/mp4">
+			    </video>
+			</div>
+		<div class="servedQueue"> 
+			${_counternumber}
+		</div>
+
+	</div>
+
+	</div><!-- #content -->	
+	<div id="footer">
+		<marquee>
+			<h3 class="announcement" disp>
+				Welcome to City of iligan
+			</h3>
+		</marquee>
+	</div><!-- #footer --> 
+</div><!-- #wrapper -->

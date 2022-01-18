@@ -1,0 +1,78 @@
+<style>
+a.memagreedwnld, a.memagreedwnld:hover { color: #005CA7; }
+</style>
+
+<div class="container bgwhite">
+    <div class="row pad">
+        <div class="col-lg-10 col-md-10 col-md-offset-1 wow fadeInDown">
+            <div class="site-head pad-bot">
+                <h2>PLUGINS</h2>
+            </div>
+                <p>Plugins are special applications not included in the standard package of E-TRACS and should be purchased separately. Plugins can be availed of through a one-time payment. Any version upgrades, if any, will be given for free. The following are the plugins currently available, or are requested for development with corresponding prices.</p>
+                <hr style="border-top:none">
+
+
+
+                <hr style="border-top:none">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>Name</th>
+                      <th>Brief Description</th>
+                      <th style="width: 200px;">Price (Php)</th>
+                    </tr>
+                    <tr>
+                      <td>Community Tax Certificate (CTC) </td>
+                      <td>Automatically computes charges for CTC and updates taxpayers records. Handles both individual and corporate community taxes.</td>
+                      <!-- <td>60,000.00</td> -->
+                        <td>Price available upon request</td>
+                    </tr>
+                    <tr>
+                      <td>Market Rental Module  </td>
+                      <td>Tracks rental units in the market and provides billing and tracks rental payments.</td>
+                      <!--<td>125,000.00</td>-->
+                      <td>Price available upon request</td>
+                    </tr>
+                    <tr>
+                      <td>Vehicle Registration System(including MTOP)</td>
+                      <td>Manages different registration of vehicle types, including, but not limited to, tricycles, boats and etc., and tracks renewals or retirement.</td>
+                      <!--<td>85,000.00</td>-->
+                      <td>Price available upon request</td>
+                    </tr>
+                    <tr>
+                      <td>Ordinance Violation System </td>
+                      <td>Encodes traffic and other violations, and computes fees based on the
+                      number of offenses.</td>
+                      <!--<td>60,000.00</td>-->
+                      <td>Price available upon request</td>
+                    </tr>
+                    <tr>
+                      <td>Waterworks System </td>
+                      <td>Tracks account of subscribers, encodes reading consumption, billing and track payments. Fees can be configured via rules. </td>
+                      <!--<td class="text-center">750,000.00</td>-->
+                      <td>Price available upon request</td>
+                    </tr>
+                    <tr>
+                      <td>Skills Database Registry</td>
+                      <td>Extends the entity (taxpayer) records to include skills, work experiences
+                        and other information to be used in a job skills matching facility.</td>
+                      <!--<td>100,000.00</td>-->
+                      <td>Price available upon request</td>
+                    </tr>
+                    <tr>
+                      <td>Building Permit System </td>
+                      <td>Handles applications, assessments, payments, and releasing of building permits. Records stored include pictures and sketches, and workflow facility allows taxpayers to monitor progress of the permit.</td>
+                      <td>Price available upon request</td>
+                    </tr>
+                  </tbody>
+                </table>
+                 <p style="font-style:italic;">* All Prices are VAT inclusive and are subject to change.</p>
+                 <p style="font-style:italic;padding-bottom:30px;">* Prices above do not include cost for training.</p>             
+            </div>
+
+    	</div>
+	</div>
+</div>
+
+
+

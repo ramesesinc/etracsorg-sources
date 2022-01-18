@@ -1,0 +1,97 @@
+    <!-- Start Page Banner -->
+    <div class="page-banner" style="padding:40px 0; background: url(/res/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Real Property Tax System</h2>
+            <p>RPTS</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="/index">Home</a></li>
+              <li>Systems</li>
+              <li>Real Property Tax System</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page Banner -->
+
+        <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+          
+          
+          <div class="row">
+            
+            <div class="col-md-6">
+              
+              <!-- Classic Heading -->
+              <h4 class="classic-title"><span>Introduction</span></h4>
+              
+              <!-- Some Text -->
+              <p>The Real Property Tax module is the most complex component in the system due to the sheer
+                number of transactions and the amount of data it captures. E-TRACS makes sure that errors are
+                prevented during transactions and goes to great lengths to achieve it. For example, when subdividing or consolidating lots, several RPUs (Real Property Unit) will be affected, which may require cancellation and re-numbering. E-TRACS will process all these as one transaction so that errors will be avoided. Most
+                systems are not very particular with this. In some systems each transaction is done manually. So imagine a lot subdivided into a hundred lots which will magnify chances of errors. If an LGU is not very particular with accuracy of the data stored in their database, then this type of system is acceptable for them. However, in E-TRACS, less than 100% accuracy is not acceptable.</p>
+              
+              
+            </div>
+            
+            <div class="col-md-6">
+              <div class="diagram">
+              <p>All assessments in E-TRACS are automatically computed based on the schedule specified. It
+                includes assessments for land, building, machinery and plants and trees. Below is a sample screen
+                during assessment:</p>   
+                 <img src="/res/module/real-screenshot.png" alt="">
+             </div> 
+            </div>
+            
+          </div>
+          
+          <!-- Divider -->
+          <div class="hr1" style="margin-bottom:50px;"></div>
+          
+          <div class="row">
+            <div class="col-md-6">
+                <h3>The following are the salient features included, but not limited to, in the RPT Module:</h3>
+                <div class="hr1" style="margin-bottom:10px;"></div>
+                       <ul>
+                            <li>Fully configurable settings, schedule of market values and assessment options </li>
+                            <li>Automated computation of assessment</li>
+                            <li>Comprehensive FAAS data requirements</li>
+                            <li>Implements transactional workflow from appraisal, verification, and approval</li>
+                            <li>Protects data integrity by recognizing "interim" records from approved ones.</li>
+                            <li>Support for the following transactions: Simple Transfer, Transfer with Correction, Transfer with
+                            Reassessment, New Discovery, Change Classification, Change Taxability, Change Depreciation,
+                            Correction of Entry, Reassessment, Multiple Claim, General Revision, Subdivision,
+                            Consolidation, Cancellation of FAAS, Multiple Claim Settlement and Batch General Revision
+                            </li>
+                            <li>Fully automated transactions that avoid "orphan" records such as processing of subdivision or consolidation automatically includes processing of affected properties like buildings or machineries.</li>
+                            <li>Support for FAAS annotation and cancellation.</li>
+                            <li>Automated issuance of Tax Declaration Certified True Copy</li>
+                            <li>Transmittal of FAAS records</li>
+                            <li>Issuance of certifications including: Land Holding, Land with Improvements, Land with No Improvements, Multiple Property, Latest and Existing Property, No Encumbrance Certification, Certificate of Ownership, No Property Certification and more
+                            </li>
+                            <li>Batch Printing of FAAS</li>
+                            <li>Seamless integration with Land Tax</li>
+                            <li>Flexible and dynamic Rule-Based billing computation</li>
+                            <li>Support for Advance billings</li>
+                            <li>Support for partial payments</li>
+                            <li>Batch generation and printing of Realty Tax Bill</li>
+                        </ul>
+              
+            </div>
+            
+            
+            
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+    

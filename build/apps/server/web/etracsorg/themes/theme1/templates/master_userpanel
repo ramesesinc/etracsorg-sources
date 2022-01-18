@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="title" content="${PROJECT.title}" />
+    <meta itemprop="name" content="${PROJECT.title}" />
+    <meta property="og:title" content="${PROJECT.title}" />
+    <meta name="Description" content="${PROJECT.description}" />
+    <meta itemprop="description" content="${PROJECT.description}" />
+    <meta property="og:description" content="${PROJECT.description}" />
+    <meta name="keywords" content="${PROJECT.keywords}"/>
+    <meta name="copyright" content="${PROJECT.copyright}" />
+    <link rel="shortcut icon" type="image/png" href="/res/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://www.etracs.org/res/favicon.png"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+   
+    @stdlib()  
+    @css("font-awesome.min")
+    @css("bootstrap.min")
+    @css("main-dash")
+    @css("userpanel-responsive.min")
+    @page-imports()
+ 	
+</head>
+
+<body>
+
+
+<% 
+    def badge = [];
+    badge << [ico:"tasks", title:"Pending Task"];
+    badge << [ico:"bell-o", title:"Notifications", animated:"icon-animated-bell"];
+    badge << [ico:"envelope-o", title:"Messages", animated:"icon-animated-vertical"];
+%>
+<div class="navbar">
+            <div class="navbar-inner">
+                <div class="container-navbar">
+                    <a href="/index" class="brand">
+                            <img src="/res/logo-white.png">
+                    </a>
+                    <ul class="nav dash-nav pull-right">
+                        <%badge.each{k ->%>
+                                <li>
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                        <i class="fa fa-${k.ico} ${k.animated}"></i>
+                                        <span class="badge badge-light">0</span>
+                                    </a>  
+                                    <ul class="pull-right dropdown-navbar dropdown-menu dropdown-caret dropdown-closer">
+                                        <li class="nav-header">
+                                            <a href="#">
+                                                <i class="fa fa-${k.ico}"></i>
+                                                ${k.title}
+                                            </a>
+                                        </li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li>
+                                            <a href="#">
+                                                See tasks with details
+                                                <i class="icon-arrow-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            <%}%>
+                        <li>
+                            <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                <img class="nav-user-photo" src="/res/profile.png" alt="Jason's Photo" />
+                                <span class="user-info">
+                                    <small>Welcome,</small>
+                                    Jason
+                                </span>
+
+                                <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-cog"></i>
+                                        Settings
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-user"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="javascript:\$('#logoutform').submit();">
+                                        <i class="fa fa-sign-out"></i>
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   <div class="content">
+  
+     ${_content}
+	
+    </div>
+         
+
+</body>
+
+         
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>   
+        <script type="text/javascript" src="/js/userpanel-elements.min.js"></script>
+        <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
+ 
+<form id="logoutform" action="actions/logout" method="post"></form>
+
+</html>

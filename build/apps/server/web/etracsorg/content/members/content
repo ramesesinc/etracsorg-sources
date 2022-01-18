@@ -1,0 +1,228 @@
+
+                       <% 
+                      def rows = [];
+                        rows << [lgu:"Kalibo", title:"AKLAN", datecovered:"May 2021 - April 2022",];
+                        rows << [lgu:"Province of Aklan", title:"AKLAN", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Altavas", title:"AKLAN", datecovered:"January 2021 - December 2022"];
+                        rows << [lgu:"Malay", title:"AKLAN", datecovered:"October 2020 - September 2021"];
+                        rows << [lgu:"Tangalan", title:"AKLAN", datecovered:"March 2020 - February 2021"];
+                        rows << [lgu:"Cagban Port Operations", title:"AKLAN", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"EED-Port Operations", title:"AKLAN", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"Ibajay", title:"AKLAN", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"New Washington", title:"AKLAN", datecovered:"August 2021 - July 2022"];
+                        
+
+                        rows << [lgu:"San Jose de Buenavista", title:"ANTIQUE", datecovered:"June 2020 - May 2022"];
+                        
+
+                        rows << [lgu:"Legazpi City", title:"ALBAY", datecovered:"December 2020 - November 2021"];
+                        rows << [lgu:"Ligao City", title:"ALBAY", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"Tabaco City", title:"ALBAY", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Daraga", title:"ALBAY", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"Province of Albay", title:"ALBAY", datecovered:"October 2021 - September 2022"];
+
+
+                        rows << [lgu:"Loboc", title:"BOHOL", datecovered:"December 2020 - November 2021"];
+                        rows << [lgu:"Albuquerque", title:"BOHOL", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Tagbilaran City", title:"BOHOL", datecovered:"December 2021 - November 2022"];
+                        rows << [lgu:"Ubay", title:"BOHOL", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"Trinidad", title:"BOHOL", datecovered:"January 2021 - December 2022"];
+                        rows << [lgu:"Panglao", title:"BOHOL", datecovered:"May 2020 - April 2021"];
+                         rows << [lgu:"Garcia-Hernandez", title:"BOHOL", datecovered:"September 2021 - August 2022"];
+                         rows << [lgu:"Carlos P. Garcia", title:"BOHOL", datecovered:"October 2021 - September 2022"];
+                         rows << [lgu:"Talibon", title:"BOHOL", datecovered:"April 2020 - March 2021"];
+                         rows << [lgu:"Province of Bohol", title:"BOHOL", datecovered:"December 2020 - November 2021"];
+                         rows << [lgu:"Tubigon", title:"BOHOL", datecovered:"January 2021 - December 2021"];
+                         rows << [lgu:"Buenavista", title:"BOHOL", datecovered:"May 2021 - April 2022"];
+                         rows << [lgu:"Catigbian", title:"BOHOL", datecovered:"June 2021 - May 2022"];
+                         rows << [lgu:"Candijay", title:"BOHOL", datecovered:"June 2021 - May 2022"];
+                          rows << [lgu:"Sierra Bullones", title:"BOHOL", datecovered:"August 2021 - July 2024"];
+                          rows << [lgu:"Bien Unido", title:"BOHOL", datecovered:"September 2021 - August 2023"];
+                          rows << [lgu:"Sagbayan", title:"BOHOL", datecovered:"September 2021 - August 2026"];
+                          rows << [lgu:"Valencia", title:"BOHOL", datecovered:"October 2021 - September 2023"];
+
+                        rows << [lgu:"Province of Bukidnon", title:"BUKIDNON PROVINCE", datecovered:"June 2021 - May 2022"];
+                        //rows << [lgu:"Malitbog Bukidnon", title:"BUKIDNON PROVINCE", datecovered:"April 2017 - March 2018"];
+                        rows << [lgu:"Maramag", title:"BUKIDNON PROVINCE", datecovered:"September 2021 - August 2022"];
+
+
+                        rows << [lgu:"Iriga City", title:"CAMARINES SUR", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"Naga City", title:"CAMARINES SUR", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Baao", title:"CAMARINES SUR", datecovered:"February 2020 - January 2021"];
+                        rows << [lgu:"Magarao", title:"CAMARINES SUR", datecovered:"July 2019 - June 2020"];
+                        rows << [lgu:"Libmanan", title:"CAMARINES SUR", datecovered:"September 2020 - August 2021"];
+                        rows << [lgu:"San Fernando", title:"CAMARINES SUR", datecovered:"December 2020 - November 2021"];
+                        rows << [lgu:"Sipocot", title:"CAMARINES SUR", datecovered:"May 2021 - April 2022"];
+                        rows << [lgu:"Calabanga", title:"CAMARINES SUR", datecovered:"May 2020 - April 2021"];
+                        rows << [lgu:"Bato", title:"CAMARINES SUR", datecovered:"November 2020 - October 2021"];
+
+                        rows << [lgu:"San Andres (Calolbon)", title:"CATANDUANES", datecovered:"August 2021 - July 2022"];
+                        rows << [lgu:"San Miguel", title:"CATANDUANES", datecovered:"November 2021 - October 2022"];
+                        rows << [lgu:"Viga", title:"CATANDUANES", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Virac", title:"CATANDUANES", datecovered:"February 2020 - Jan 2021"];
+                        rows << [lgu:"Catanduanes Province", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+                        rows << [lgu:"Bagamanoc", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+                        rows << [lgu:"Baras", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+                        rows << [lgu:"Pandan", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+                        rows << [lgu:"Caramoran", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+                        rows << [lgu:"Bato", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+                        rows << [lgu:"Gigmoto", title:"CATANDUANES", datecovered:"February 2021 - January 2022"];
+                        rows << [lgu:"Panganiban", title:"CATANDUANES", datecovered:"February 2019 - January 2020"];
+
+                        rows << [lgu:"Nabunturan", title:"DAVAO DE ORO", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Province of Davao de Oro", title:"DAVAO DE ORO", datecovered:"April 2020 - March 2021"];
+                        rows << [lgu:"Pantukan", title:"DAVAO DE ORO", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"Mabini", title:"DAVAO DE ORO", datecovered:"November 2020 - October 2021"];
+                         rows << [lgu:"Maco", title:"DAVAO DE ORO", datecovered:"August 2021 - July 2023"];
+                         rows << [lgu:"Mawab", title:"DAVAO DE ORO", datecovered:"August 2021 - July 2025"];
+                         rows << [lgu:"Monkayo", title:"DAVAO DE ORO", datecovered:"September 2021 - August 2022"];
+                         rows << [lgu:"Compostela", title:"DAVAO DE ORO", datecovered:"January 2021 - December 2022"];
+
+                        rows << [lgu:"Dalaguete", title:"CEBU", datecovered:"September 2021 - August 2022"]; 
+                        rows << [lgu:"Danao City", title:"CEBU", datecovered:"December 2020 - November 2021"]; 
+
+                        rows << [lgu:"Santo Tomas", title:"DAVAO DEL NORTE", datecovered:"August 2021 - July 2022"];
+                        rows << [lgu:"Kapalong",    title:"DAVAO DEL NORTE", datecovered:"January 2021 - December 2021"];
+                        rows << [lgu:"Carmen", title:"DAVAO DEL NORTE", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"Braulio E. Dujali", title:"DAVAO DEL NORTE", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"San Isidro", title:"DAVAO DEL NORTE", datecovered:"October 2021 - September 2022"];
+                        rows << [lgu:"New Corella", title:"DAVAO DEL NORTE", datecovered:"January 2021 - December 2021"];
+                        rows << [lgu:"Davao del Norte Province", title:"DAVAO DEL NORTE", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"Asuncion", title:"DAVAO DEL NORTE", datecovered:"October 2020 - September 2021"];
+                        rows << [lgu:"Talaingod", title:"DAVAO DEL NORTE", datecovered:"January 2021 - December 2021"];
+                        rows << [lgu:"Panabo City", title:"DAVAO DEL NORTE", datecovered:"October 2021 - September 2022"];
+                        rows << [lgu:"Island Garden City of Samal", title:"DAVAO DEL NORTE", datecovered:"October 2021 - September 2022"];
+
+                        rows << [lgu:"Province of Davao Oriental", title:"DAVAO ORIENTAL", datecovered:"October 2020 - September 2021"];
+
+                        rows << [lgu:"Buenavista", title:"GUIMARAS", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"Jordan", title:"GUIMARAS", datecovered:"February 2022 - January 2022"];
+                         rows << [lgu:"Province of Guimaras", title:"GUIMARAS", datecovered:"October 2020 - September 2021"];
+                        rows << [lgu:"Nueva Valencia", title:"GUIMARAS", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"San Lorenzo", title:"GUIMARAS", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Sibunag", title:"GUIMARAS", datecovered:" March 2021 - February 2022"];
+
+                        rows << [lgu:"Piddig", title:"ILOCOS NORTE", datecovered:"September 2021 - August 2022"];
+                        rows << [lgu:"Sarrat", title:"ILOCOS NORTE", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"San Nicolas", title:"ILOCOS NORTE", datecovered:"August 2021 - July 2022"];
+                        rows << [lgu:"Solsona", title:"ILOCOS NORTE", datecovered:"August 2021 - July 2022"];
+                        rows << [lgu:"Marcos", title:"ILOCOS NORTE", datecovered:"November 2019 - October 2020"];
+                        rows << [lgu:"Pagudpud", title:"ILOCOS NORTE", datecovered:"December 2020 - November 2021"];
+                        rows << [lgu:"Province of Ilocos Norte", title:"ILOCOS NORTE", datecovered:"February 2021 - January 2022"];
+
+                        rows << [lgu:"Misamis Occidental Province", title:"MISAMIS OCCIDENTAL", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"Oroquieta City", title:"MISAMIS OCCIDENTAL", datecovered:"August 2020 - July 2021"];
+                        rows << [lgu:"Tangub City", title:"MISAMIS OCCIDENTAL", datecovered:"February 2021 - January 2022"];
+
+                        rows << [lgu:"Claveria", title:"MISAMIS ORIENTAL", datecovered:"October 2020 - September 2021"];
+
+                        rows << [lgu:"Bayawan City", title:"NEGROS ORIENTAL", datecovered:"January 2021 - December 2021"];
+                        rows << [lgu:"Tanjay City", title:"NEGROS ORIENTAL", datecovered:"January 2021 - December 2021"];
+
+
+                        rows << [lgu:"San Carlos City", title:"NEGROS OCCIDENTAL", datecovered:"June 2020 - May 2021"];
+                        rows << [lgu:"Cadiz City", title:"NEGROS OCCIDENTAL", datecovered:"April 2019 - March 2020"];
+
+                        rows << [lgu:"Gapan City", title:"NUEVA ECIJA", datecovered:"March 2021 - February 2022"];
+
+                        rows << [lgu:"Bayombong", title:"NUEVA VIZCAYA", datecovered:"July 2021 - June 2022"];
+                        rows << [lgu:"Solano", title:"NUEVA VIZCAYA", datecovered:"September 2020 - August 2021"];
+
+                        rows << [lgu:"Sariaya", title:"QUEZON", datecovered:"October 2020 - September 2021"];
+                        rows << [lgu:"Tayabas City", title:"QUEZON", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Surigao del Norte Province", title:"SURIGAO DEL NORTE", datecovered:"November 2020 - October 2021"];
+
+                       
+
+                        rows << [lgu:"Masbate City", title:"MASBATE", datecovered:"December 2020 - November 2021"];
+
+                        rows << [lgu:"Tubod", title:"LANAO DEL NORTE", datecovered:"January 2021 - December 2021"];
+                        rows << [lgu:"Kolambugan", title:"LANAO DEL NORTE", datecovered:"January 2021 - December 2021"];
+                        rows << [lgu:"Bacolod", title:"LANAO DEL NORTE", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Iligan City", title:"LANAO DEL NORTE", datecovered:"April 2020 - March 2021"];
+                        rows << [lgu:"Kapatagan", title:"LANAO DEL NORTE", datecovered:"May 2020 - April 2021"];
+                        rows << [lgu:"Baroy", title:"LANAO DEL NORTE", datecovered:"May 2021 - April 2022"];
+                        rows << [lgu:"Lala", title:"LANAO DEL NORTE", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"Salvador", title:"LANAO DEL NORTE", datecovered:" June 2020 - May 2021"];
+                        rows << [lgu:"Province of Lanao del Norte", title:"LANAO DEL NORTE", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"Linamon", title:"LANAO DEL NORTE", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"Maigo", title:"LANAO DEL NORTE", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"Kauswagan", title:"LANAO DEL NORTE", datecovered:"November 2021 - October 2022"];
+
+                        rows << [lgu:"Puerto Princesa City", title:"PALAWAN", datecovered:"March 2020 - February 2021"];                
+                        rows << [lgu:"Province of Palawan", title:"PALAWAN", datecovered:"March 2021 - February 2022"];
+                        rows << [lgu:"Sofronio Espa&#241ola", title:"PALAWAN", datecovered:"August 2020 - July 2021"];
+                        rows << [lgu:"Taytay", title:"PALAWAN", datecovered:"November 2020 - October 2021"];
+                        rows << [lgu:"Aborlan", title:"PALAWAN", datecovered:"April 2021 - March 2022"];
+                        rows << [lgu:"San Vicente", title:"PALAWAN", datecovered:"July 2021 - June 2022"];
+                        rows << [lgu:"Dumaran", title:"PALAWAN", datecovered:"September 2021 - August 2022"];
+
+                        rows << [lgu:"General Santos City", title:"SOUTH COTABATO", datecovered:"June 2021 - May 2022"];
+
+                        rows << [lgu:"Maasim", title:"SARANGANI", datecovered:"June 2019 - May 2020"];
+                        rows << [lgu:"Malungon", title:"SARANGANI", datecovered:"June 2021 - May 2022"];
+                        rows << [lgu:"Maitum", title:"SARANGANI", datecovered:"June 2020 - May 2021"];
+                        rows << [lgu:"Kiamba", title:"SARANGANI", datecovered:"August 2021 - July 2022"];
+                        rows << [lgu:"Alabel", title:"SARANGANI", datecovered:"August 2020 - July 2021"];
+                        rows << [lgu:"Glan", title:"SARANGANI", datecovered:"October 2021 - September 2022"];
+                        rows << [lgu:"Province of Sarangani", title:"SARANGANI", datecovered:"June 2021 - May 2022"];
+                       
+                        rows << [lgu:"Sorsogon City", title:"SORSOGON", datecovered:"January 2021 - December 2021"];
+
+                        rows << [lgu:"Dapitan City", title:"ZAMBOANGA DEL NORTE", datecovered:"April 2021 - March 2022"];
+
+
+
+                        def groups = rows.collect{ it.title }.findAll{( it )}.unique().sort{ it }  
+
+                      %>
+                      <!-- Start Page Banner -->
+                      <div class="page-banner" style="padding:40px 0; background: url(/res/slide-02-bg.jpg) center #f9f9f9;">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <h2>ETRACS MEMBERS</h2>
+                            </div>
+                            <div class="col-md-6">
+                              <ul class="breadcrumbs">
+                                <li><a href="/index">Home</a></li>
+                                <li>Members</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                        <!-- Start Content -->
+                        <div id="content">
+                          <div class="container">
+                            <div class="page-content">
+                              <h2>Total Number of Member-LGUs: 136</h2>
+                                <table class="table">
+
+                                    <%
+                                      groups.each{ k -> 
+                                          def v = rows.findAll{( it.title==k )}.sort{ it.title }
+                                    %>
+                                        <thead class="thead-default">
+                                          <tr>
+                                            <th></th>
+                                            <th>${k}</th>
+                                            <th>Period Covered</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <%v.each{o->%>
+                                             <tr>
+                                                  <td></td>
+                                                  <td>${o.lgu}</td>
+                                                  <td>${o.datecovered}</td>
+                                              </tr>
+                                          <%}%>
+                                        </tbody>
+                                    <%}%>
+
+                                </table>
+                            </div>
+                          </div>
+                        </div>

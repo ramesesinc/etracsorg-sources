@@ -1,0 +1,41 @@
+
+<% 
+    def sidebar = [];
+    sidebar << [links:"", ico:"dashboard", submenu:"dashboard", title:"Panel"];
+    sidebar << [links:"", ico:"envelope", submenu:"sms", title:"Panel"];
+    sidebar << [links:"", ico:"shopping-cart", submenu:"orders", title:"Panel"];
+    sidebar << [links:"", ico:"money", submenu:"discounts", title:"Panel"];
+    sidebar << [links:"", ico:"suitcase", submenu:"products", title:"Panel"];
+    sidebar << [links:"", ico:"credit-card", submenu:"collection", title:"Panel"];
+    sidebar << [links:"", ico:"shield", submenu:"apps", title:"Configuration"];
+    sidebar << [links:"", ico:"wrench", submenu:"settings", title:"Configuration"];
+    sidebar << [links:"", ico:"book", submenu:"blog", title:"Website"];
+    sidebar << [links:"", ico:"text-width", submenu:"pages", title:"Website"];
+    sidebar << [links:"", ico:"external-link", submenu:"links", title:"Website"];
+    sidebar << [links:"", ico:"bookmark", submenu:"themes", title:"Website"];
+
+
+    def side  = sidebar.groupBy{it.title};
+%>
+
+<div class="sidebar" id="sidebar">
+  <ul class="nav-list">
+     <%side.each{k,v ->%>
+        <li>
+          <a href="/userpanel">
+            <span class="menu-text"> ${k} </span>
+          </a>
+              <ul class="submenu">
+                  <%v.each{o->%>
+                   <li>
+                      <a href="#userpanel-${o.title}">
+                          <i class="fa fa-${o.ico}"></i>
+                          <span> ${o.submenu}</span>
+                      </a>
+                  </li>
+                  <%}%>
+              </ul>
+          </li>
+      <%}%>
+  </ul>  
+</div>

@@ -1,0 +1,93 @@
+    <!-- Start Page Banner -->
+    <div class="page-banner" style="padding:40px 0; background: url(/res/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Revenue Collection</h2>
+            <p>Treasury Module</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="breadcrumbs">
+              <li><a href="/index">Home</a></li>
+              <li>Systems</li>
+              <li>Revenue Collection</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page Banner -->
+
+        <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+          
+          
+          <div class="row">
+            
+            <div class="col-md-6">
+              
+              <!-- Classic Heading -->
+              <h4 class="classic-title"><span>Introduction</span></h4>
+              
+              <!-- Some Text -->
+              <p>The collection module covers the complete cycle from assigning of accountable forms to collectors then to remittance and liquidation up to deposits. Each revenue item is segregated by fund which is associated with the bank accounts. Unlike other solutions, the issuance of accountable forms is strictly enforced. Printing of serial numbers is not manually encoded. It follows the series of the accountable form issued. Collection is treated as a sensitive transaction and E-TRACS makes sure that each and every receipt is accounted for. Before a collector can collect in the system, there are several security steps that must be satisfied.</p>
+              <p>First, that person must have sufficient role and permission. Second, an accountable form must be issued to the collector. Each accountable form is tracked in the accountable form inventory. E-TRACS also enforces collectors to do a cash breakdown before remittance to their liquidating officers. Liquidating officers must also check and balance remittances before deposit. The diagram below shows the complete process in E-TRACS collection cycle.</p>
+
+                 <p>Different types of collections can be plugged in to the collection module. The miscellaneous collection is the default collection screen if there are no special plug-ins. It is a simple way of encoding accounts and their amounts. However, when there are plug-ins, it replaces the miscellaneous into a more appropriate screen. The collection screen adapts to the type of collection being processed within the same application. This illustrates the plug-in capability of the E-TRACS platform. This feature gives great flexibility to a collector because they will not shift to different applications when collecting different types of transactions. To illustrate, the following show screenshots of different types of collection as seen from a collectors perspective.</p>
+              
+              
+            </div>
+            
+            <div class="col-md-6">
+              <div class="diagram">  
+                 <img src="/res/module/treasury-diagram.png" alt="">
+             </div> 
+            </div>
+            
+          </div>
+          
+          <!-- Divider -->
+          <div class="hr1" style="margin-bottom:50px;"></div>
+          
+          <div class="row">
+          <div class="col-md-6">
+              <div class="diagram">  
+                 <img src="/res/module/treasury-screenshot.png" alt="">
+             </div> 
+            </div>
+            <div class="col-md-6">
+                <h3>The following are the salient features, included, but not limited to, in the Treasury (Revenue Collection):</h3>
+                <div class="hr1" style="margin-bottom:10px;"></div>
+                       <ul>
+                        <li>Manages and adds fund accounts (General, SEF, Trust)</li>
+                        <li>Built in support for CRAAF (Consolidated Report on Accountability of Accountable Forms)</li>
+                        <li>Supports serial and non-serial (like cash tickets) accountable forms</li>
+                        <li>Multi-layered security for bonded collectors</li>
+                        <li>Support for sub collectors (non-bonded collectors)</li>
+                        <li>Online and offline printing through controlled numbering of receipts</li>
+                        <li>Support for associating receipts with existing taxpayers or walk-in payers</li>
+                        <li>Efficient batch capture of receipts for field collectors</li>
+                        <li>Support for voiding collections</li>
+                        <li>Allows collection of any type of revenue per collector (Collect RPT or BPLS, etc)</li>
+                        <li>Support for cash and check payments. (Mixed payments are allowed.)</li>
+                        <li>Can map and export income accounts to NGAS and SRE accounts.</li>
+                        <li>Daily remittance and automatic printing of collection reports</li>
+                        <li>Daily remittance report are segregated by account, account type or fund</li>
+                        <li>Support for deposits and reconciliation. (Deposits are segregated by fund.)</li>
+                        <li>Allows direct printing and customization of deposit slips.</li>
+                        <li>Support for cash tickets</li>
+                    </ul>
+            </div>
+            
+            
+            
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+    

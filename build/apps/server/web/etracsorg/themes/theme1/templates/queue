@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/">
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="title" content="${PROJECT.title}" />
+    <meta itemprop="name" content="${PROJECT.title}" />
+    <meta property="og:title" content="${PROJECT.title}" />
+    <meta name="Description" content="${PROJECT.description}" />
+    <meta itemprop="description" content="${PROJECT.description}" />
+    <meta property="og:description" content="${PROJECT.description}" />
+    <meta name="keywords" content="${PROJECT.keywords}"/>
+    <meta name="copyright" content="${PROJECT.copyright}" />
+    <link rel="shortcut icon" type="image/png" href="/res/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://www.etracs.org/res/favicon.png"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    
+
+    @css("queue-monitor")
+
+    @page-imports()
+
+ 	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60947024-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+
+   
+   ${content}
+
+
+
+    
+</body>
+
+
+
+</html>

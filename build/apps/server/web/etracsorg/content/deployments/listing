@@ -1,0 +1,33 @@
+
+<%
+	def svc = SERVICE.lookup("DeploymentService", "main");	
+	def lgu_listing = svc.getList([:]);
+%>
+Total LGUs: ${lgu_listing.size()}
+<br>
+<table cellpadding="0" cellspacing="0" class="table">
+<tr>
+	<td>Province</td>
+	<td>LGU</td>
+	<td>Type</td>
+	<td>Year</td>	
+	<td>Project/Program</td>
+	<td>Modules</td>
+	<td>Ver</td>
+	<td>Status</td>
+</tr>
+<%lgu_listing.each{%>
+	<tr>
+		<td>${it.province}</td>
+		<td>${it.lguname}</td>
+		<td>${it.type}</td>
+		<td>${it.year}</td>		
+		<td>${it.project}</td>
+		<td>${it.module}</td>
+		<td>${it.version}</td>
+		<td>${it.status}</td>
+	</tr>
+<%}%>
+</table>
+
+

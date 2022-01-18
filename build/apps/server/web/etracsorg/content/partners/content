@@ -1,0 +1,34 @@
+<style type="text/css">
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    .pad{
+    	margin-bottom: 200px;
+    }
+</style>
+<div class="container bgwhite">
+    <div class="row pad">
+        <div class="col-lg-10 col-md-10 col-md-offset-1 wow fadeInDown">
+
+            <div class="site-head pad-bot">
+                <h2>Partners</h2>
+            </div>
+            <hr>	
+            <img src="/res/partners/WBS_Logo_Complete_Black.jpg" width="500" class="displayed">
+                <p>Wacom, a global company with its headquarters based in Japan, is the market leader for pen input solutions. Wacom's devices are utilised in a variety of application areas in which achieving a digital workflow with high-level security is crucial. The seamless integration of Wacom STU-430 signature pad with ETRACS, allows possible capturing of eSignatures within the workflow and also keeping the authentication of signees.</p>
+
+        	<hr>
+               <img src="/res/partners/dbp.png" width="500" class="displayed">
+                <p>The Developement Bank of the Philippines (DBP) spurs the nation towards growth by funding projects that raise the economy's competitiveness. Focusing on sectors with the biggest and most immediate impact on every Filipino's well-being, DBP spearcheads infrastructure projects such as roads and highways. power and water generation and distribution, schools, and hospitals</p>     
+            <hr>
+               <img src="/res/partners/landbank.png" width="500" class="displayed">
+                <p>By 2023, LANDBANK shall be the leading universal bank that promotes inclusive growth, especially in the unbanked and underserved areas, through the delivery of innovative financial products and services powered by digital banking platforms.</p>     
+            <hr>    
+    	</div>
+	</div>
+</div>
+
+
+
+

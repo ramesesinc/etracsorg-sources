@@ -1,0 +1,35 @@
+<% 
+	def rows = [];
+	rows << [sc_uuid:"3", number:"G0105", counter:"N3", title:"ASSESSMENT"];
+	rows << [sc_uuid:"3", number:"G0105", counter:"N3", title:"ASSESSMENT"];
+	rows << [sc_uuid:"3", number:"G0105", counter:"N3", title:"ASSESSMENT"];
+	rows << [sc_uuid:"2", number:"G0104", counter:"R2", title:"PAYMENT"];
+	rows << [sc_uuid:"2", number:"G0104", counter:"R2", title:"PAYMENT"];
+	rows << [sc_uuid:"2", number:"G0104", counter:"R2", title:"PAYMENT"];
+	rows << [sc_uuid:"2", number:"G0104", counter:"R2", title:"PAYMENT"];
+
+
+
+
+
+	def sections  = rows.groupBy{it.title};
+    def flavor = "default" 
+    def themeName = THEME.name ? THEME.name : "default";
+    def cssName = (rows.size()>6)?"queue-video1.css":"queue-video2.css" ;
+%>
+
+
+	
+		<%sections.each{k,v ->%>
+			<div class="serving">
+				<h1 class="dep-name">${k}</h1>
+					<%v.each{o->%>
+						<div class="counter-container">
+				            <h2>${o.counter} - ${o.number}</h2>
+				        </div>
+					<%}%>
+			</div>
+		<%}%>
+	
+
+
